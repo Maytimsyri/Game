@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.game-container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.scoreboard {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.game-options button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.game-options button:hover {
+    background-color: #3e8e41;
+}
+
+.result-message {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#result {
+    font-weight: bold;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+```
+
